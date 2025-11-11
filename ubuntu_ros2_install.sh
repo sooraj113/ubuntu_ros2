@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 echo "Starting ROS 2 Humble installation..."
 
