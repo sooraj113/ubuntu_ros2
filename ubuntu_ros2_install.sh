@@ -33,6 +33,7 @@ sudo apt install -y \
     ros-humble-nav2-bringup \
     ros-humble-joy \
     ros-humble-slam-toolbox \
+    ros-humble-rviz2 \
     python3-colcon-common-extensions \
     ros-dev-tools
 
