@@ -27,4 +27,4 @@ Write-Host " WSL 2 enabled and Ubuntu 22.04 installed."
 Write-Host "`n Please RESTART your computer before continuing."
 Write-Host "After reboot, open Ubuntu 22.04 from Start Menu to finish setup."
 Write-Host "`nOnce inside Ubuntu, you can install ROS 2 Humble using:"
-Write-Host "bash <(curl -sSL https://raw.githubusercontent.com/soorajvs/ros2-auto-installer/main/ubuntu_ros2_install.sh)" -ForegroundColor Yellow
+Write-Host "bash <(curl -sSL https://raw.githubusercontent.com/sooraj113/ubuntu_ros2/main/ubuntu_ros2_install.sh)" -ForegroundColor Yellow
