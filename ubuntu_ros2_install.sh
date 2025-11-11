@@ -32,14 +32,19 @@ sudo apt install -y \
     ros-humble-nav2-bringup \
     ros-humble-joy \
     ros-humble-slam-toolbox \
+    ros-humble-twist-mux \
+    ros-humble-ros2-control ros-humble-ros2-controllers \
     ros-humble-rviz2 \
     python3-colcon-common-extensions \
     ros-dev-tools
 mkdir -p ~/dev_ws/src
 cd dev_ws/src
 git clone https://github.com/sooraj113/my_bot.git
-cd ..
+cd dev_ws
 colcon build --symlink-install
+source ~/opt/ros/humble/setup.bash
+echo "source /opt/ros/humble/setup.bash" >>~/.bashrc
+source ~/dev_ws/install/setup.bash
 source install/setup.bash
 
 # Add ROS 2 setup to bashrc
