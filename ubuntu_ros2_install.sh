@@ -38,6 +38,7 @@ sudo apt install -y \
 mkdir -p ~/dev_ws/src
 cd dev_ws/src
 git clone https://github.com/sooraj113/my_bot.git
+cd ..
 colcon build --symlink-install
 source install/setup.bash
 
