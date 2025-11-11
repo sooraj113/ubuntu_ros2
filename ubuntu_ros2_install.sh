@@ -36,6 +36,11 @@ sudo apt install -y \
     ros-humble-rviz2 \
     python3-colcon-common-extensions \
     ros-dev-tools
+mkdir -p ~/dev_ws/src
+cd dev_ws/src
+git clone https://github.com/sooraj113/my_bot.git
+colcon build --symlink-install
+source install/setup.bash
 
 # Add ROS 2 setup to bashrc
 if ! grep -q "source /opt/ros/humble/setup.bash" ~/.bashrc; then
