@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🚀 Starting ROS 2 Humble installation..."
+echo "Starting ROS 2 Humble installation..."
 
 # Update and upgrade
 sudo apt update && sudo apt upgrade -y
@@ -47,5 +47,5 @@ if ! grep -q "source /opt/ros/humble/setup.bash" ~/.bashrc; then
   echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 fi
 
-echo "✅ ROS 2 Humble installation complete!"
-echo "🔄 Run 'source ~/.bashrc' or restart the terminal to start using ROS 2."
+echo "ROS 2 Humble installation complete!"
+echo "Run 'source ~/.bashrc' or restart the terminal to start using ROS 2."
