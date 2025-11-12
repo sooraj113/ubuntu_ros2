@@ -47,7 +47,6 @@ echo "source /opt/ros/humble/setup.bash" >>~/.bashrc
 source ~/dev_ws/install/setup.bash
 source install/setup.bash
 
-# Add ROS 2 setup to bashrc
 if ! grep -q "source /opt/ros/humble/setup.bash" ~/.bashrc; then
   echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 fi
