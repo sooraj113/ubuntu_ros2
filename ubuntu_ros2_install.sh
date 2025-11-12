@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+#set -e
 echo "Starting ROS 2 Humble installation..."
 
 # Update and upgrade
