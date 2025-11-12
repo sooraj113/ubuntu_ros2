@@ -42,9 +42,8 @@ cd dev_ws/src
 git clone https://github.com/sooraj113/my_bot.git
 cd dev_ws
 colcon build --symlink-install
-source ~/opt/ros/humble/setup.bash
-echo "source /opt/ros/humble/setup.bash" >>~/.bashrc
-source ~/dev_ws/install/setup.bash
+source /opt/ros/humble/setup.bash
+source /dev_ws/install/setup.bash
 source install/setup.bash
 
 if ! grep -q "source /opt/ros/humble/setup.bash" ~/.bashrc; then
