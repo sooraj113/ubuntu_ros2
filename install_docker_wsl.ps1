@@ -27,4 +27,3 @@ Write-Host "WSL 2 enabled and Ubuntu 22.04 installed."
 Write-Host "Please RESTART your computer before continuing."
 Write-Host "After reboot, open Ubuntu 22.04 from Start Menu to finish setup."
 Write-Host "Once inside Ubuntu, you can install ROS 2 Humble using:"
-wsl --install -d Ubuntu-22.04
