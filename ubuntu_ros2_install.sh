@@ -39,7 +39,7 @@ sudo apt install -y \
     ros-dev-tools
 mkdir -p ~/dev_ws/src
 cd dev_ws/src
-git clone https://github.com/sooraj113/my_bot.git
+git clone https://github.com/Autobonics/ros2-starter/tree/develop
 
 
 if ! grep -q "source /opt/ros/humble/setup.bash" ~/.bashrc; then
