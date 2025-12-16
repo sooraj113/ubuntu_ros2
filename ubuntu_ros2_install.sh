@@ -40,7 +40,7 @@ sudo apt install -y \
 mkdir -p ~/dev_ws/src
 cd dev_ws
 cd src
-git clone https://github.com/Autobonics/ros2-starter/tree/develop
+git clone https://github.com/sooraj113/my_bot.git
 
 
 if ! grep -q "source /opt/ros/humble/setup.bash" ~/.bashrc; then
