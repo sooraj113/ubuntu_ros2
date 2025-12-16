@@ -38,7 +38,8 @@ sudo apt install -y \
     python3-colcon-common-extensions \
     ros-dev-tools
 mkdir -p ~/dev_ws/src
-cd dev_ws/src
+cd dev_ws
+cd src
 git clone https://github.com/Autobonics/ros2-starter/tree/develop
 
 
